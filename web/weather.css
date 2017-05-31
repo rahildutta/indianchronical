@@ -1,0 +1,128 @@
+
+h1 {
+    font-size: 58px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 49px;
+    width: auto;
+}
+.weather2 {
+    float: left;
+    width: auto;
+}
+.weather__widget {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 14px;
+    height: 95px;
+    padding: 15px;
+    width: 190px;
+ background-position: center center !important;
+}
+.weather__sub {
+	background-color: #EEEEEE;
+	background: url(../img/input.jpg);
+	background-size: 100%;
+	padding: 15px;
+	width: 190px;
+	height: 95px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 15px;
+	 background-position: center center !important;
+}
+.weather__img {
+    height: auto;
+    width: 29px;
+}
+.weather__name-city {
+	cursor: pointer;
+	text-shadow: black 0.0em 0.0em 0.2em;
+	vertical-align: 1px;
+}
+.weather__checkbox {
+	cursor: pointer;
+}
+.weather__main-temp {
+	font-size: 22px;
+	padding-left: 10px;
+}
+.weather__input {
+	border: none;
+	border-bottom: 2px solid #729AB9;
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+	text-shadow: black 0.0em 0.0em 0.2em;	
+	width: 100%;
+	margin-bottom: 5px;
+}
+.weather__wrapper {
+	position: relative;
+	top: 0;
+	text-shadow: black 0.0em 0.0em 0.2em;
+}
+.weather__input:focus {
+	outline: none;
+}
+.weather__info {
+    line-height: 20px;
+}
+.weather__input__label {
+	text-shadow: black 0.0em 0.0em 0.2em;	
+}
+.autocomplete-suggestions { 
+	border: 1px solid #999; 
+	background-color: rgba(255, 255, 255, 0.56); 
+	overflow: auto; 
+	color: #438BC0;
+	display: none;
+}
+.autocomplete-suggestion {
+	padding: 2px 5px; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	cursor: pointer;
+}
+.autocomplete-selected { 
+	background: #F0F0F0; 
+}
+.autocomplete-group { 
+	padding: 2px 5px; 
+}
+.autocomplete-suggestions strong { 
+	font-weight: normal; 
+	color: #3399FF; 
+}
+.autocomplete-group strong { 
+	display: block; 
+	border-bottom: 1px solid #000; 
+}
+.column{
+    font-size: 14px;
+    line-height: 20px;
+    width: 17.5%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+    border-left: 3px solid #2f2f2f;}
+
+.column2{
+    font-size: 14px;
+    line-height: 20px;
+    width: 17.5%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+   
+    
+    transition: all .7s;
+    
+}
+
